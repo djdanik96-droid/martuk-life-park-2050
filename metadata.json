@@ -1,0 +1,6 @@
+{
+  "name": "MARTUK LIFE PARK 2050 — Мәртөк: дәстүр, дала және болашақ",
+  "description": "Мәртөк ауылындағы болашақ агротуристік кешеннің интерактивті 3D цифрлық моделі мен SMART PARK басқару жүйесі.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
