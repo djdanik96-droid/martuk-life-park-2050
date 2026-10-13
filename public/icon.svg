@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f291e"/>
+      <stop offset="50%" stop-color="#1b4332"/>
+      <stop offset="100%" stop-color="#081c15"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="60%" stop-color="#eab308"/>
+      <stop offset="100%" stop-color="#ca8a04"/>
+    </linearGradient>
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background with subtle rounded corners -->
+  <rect width="512" height="512" rx="108" fill="url(#bgGrad)"/>
+  
+  <!-- Outer glowing ring -->
+  <circle cx="256" cy="240" r="180" fill="none" stroke="#2d6a4f" stroke-width="4" opacity="0.6"/>
+  <circle cx="256" cy="240" r="160" fill="none" stroke="#40916c" stroke-width="2" stroke-dasharray="8 6" opacity="0.8"/>
+
+  <!-- Steppe Landscape & Bio-dome Hills -->
+  <path d="M 96 360 Q 180 290 256 320 Q 340 350 416 360 L 416 410 Q 256 424 96 410 Z" fill="#2d6a4f" opacity="0.9"/>
+  <path d="M 120 380 Q 210 320 280 340 Q 360 360 392 380 L 392 410 Q 256 420 120 410 Z" fill="#40916c"/>
+
+  <!-- Futuristic Yurt & Shaniraq Crown (Golden Sun) -->
+  <circle cx="256" cy="210" r="68" fill="url(#goldGrad)" filter="drop-shadow(0 4px 12px rgba(234, 179, 8, 0.4))"/>
+  
+  <!-- Inner Shaniraq Rings and Crossbars -->
+  <circle cx="256" cy="210" r="54" fill="none" stroke="#713f12" stroke-width="5"/>
+  <circle cx="256" cy="210" r="32" fill="none" stroke="#713f12" stroke-width="4"/>
+  <circle cx="256" cy="210" r="12" fill="#713f12"/>
+  
+  <!-- Shaniraq Cross-lines (Уық / Күлдіреуіш) -->
+  <line x1="204" y1="210" x2="308" y2="210" stroke="#713f12" stroke-width="4" stroke-linecap="round"/>
+  <line x1="256" y1="158" x2="256" y2="262" stroke="#713f12" stroke-width="4" stroke-linecap="round"/>
+  <line x1="219" y1="173" x2="293" y2="247" stroke="#713f12" stroke-width="3" stroke-linecap="round"/>
+  <line x1="293" y1="173" x2="219" y2="247" stroke="#713f12" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Futuristic Smart Tech Nodes (2050 signals) -->
+  <circle cx="256" cy="116" r="6" fill="#38bdf8"/>
+  <circle cx="350" cy="165" r="5" fill="#38bdf8"/>
+  <circle cx="162" cy="165" r="5" fill="#38bdf8"/>
+  <line x1="256" y1="126" x2="256" y2="142" stroke="#38bdf8" stroke-width="2" stroke-dasharray="3 3"/>
+
+  <!-- App Title Typography: MARTUK 2050 -->
+  <text x="256" y="445" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="800" fill="#f8fafc" text-anchor="middle" letter-spacing="4">MARTUK 2050</text>
+  <text x="256" y="472" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600" fill="#a7f3d0" text-anchor="middle" letter-spacing="2">LIFE PARK</text>
+</svg>
